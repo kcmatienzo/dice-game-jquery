@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Dice Game jQuery</title>
+</head>
+<body>
+
+  <div class="container">
+    <h1 id="displayWinner">Dice Game</h1>
+    <div class="score">
+      <table>
+        <tr>
+          <p class="score-p">Score</p>
+        </tr>
+        <tr>
+          <th>Player 1</th>
+          <th>Player 2</th>
+        </tr>
+        <tr>
+          <td class="player1score"></td>
+          <td class="player2score"></td>
+        </tr>   
+      </table>
+    </div>
+
+    <div class="dice">
+      <p>Player 1</p>
+      <img class="img1" src="images/dice6.png" alt="dice image">
+    </div>
+  
+    <div class="dice">
+      <p>Player 2</p>
+      <img class="img2" src="images/dice6.png" alt="dice image">
+    </div>
+
+    <div class="refresh">
+      <button class="refresh-btn">
+        Roll Dice
+      </button>
+    </div>
+  
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="index.js" type="text/javascript"></script>
+</body>
+</html>
